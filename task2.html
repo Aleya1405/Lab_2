@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <h1>Conference Registration Form</h1>
+        <form action="">
+            Full Name:
+            <br>
+            <input type="text" name="fullname" placeholder="Enter your full name" required><br>
+            <br>
+
+            Email Adress:
+            <br>
+            <input type="text" name="email" placeholder="Enter your email address" required><br>
+            <br>
+
+            Age:
+            <br>
+            <input type="number" name="Age" placeholder="age" min="18" max="99"><br>
+            <br>
+
+            Gender:
+            <br>
+            <input type="radio" name="gender" value="Male">Male<br>
+            <input type="radio" name="gender" value="Female">Female <br>
+            <br>
+            Country of Residence:
+            <br>
+            <select name="country">
+                <option value="Malaysia">Malaysia</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Thailand">Thailand</option>
+                <option value="China">China</option>
+                <option value="Korea">Korea</option>
+                <option value="Vietnam">Vietnam</option>
+            </select>
+        </select>
+        <br><br>
+        Area of Interest:
+        <br>
+        <input type="checkbox" name="interest" value="software development">Software Development <br>
+        <input type="checkbox" name="interest" value="data science">Data Science <br>
+        <input type="checkbox" name="interest" value="cybersecurity">Cybersecurity <br>
+        <input type="checkbox" name="interest" value="artificial intelligence">Artificial Intelligence <br>
+        <br>
+
+        Experience Level:
+        <br>
+        <input type="radio" name="experience" value="Beginner">Beginner<br>
+        <input type="radio" name="experience" value="Intermediate">Intermediate <br>
+        <input type="radio" name="experience" value="Advanced">Advanced <br>
+        <br>
+
+        Comments or Questions:
+        <br>
+        <textarea name="comment" id="comment" rows="4" cols="50" placeholder="Any comments or questions?"></textarea>
+        <br>
+        <input type="submit" value="Register">
+        <input type="reset" value="reset">
+        </form>
+    </body>
+</html>
